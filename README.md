@@ -1,6 +1,10 @@
 # Synapse
 
 <p align="center">
+  <img src="assets/screenshots/hero-workspace.png" alt="Synapse workspace hero" width="100%">
+</p>
+
+<p align="center">
   <strong>An AI knowledge workspace for capturing notes fast, structuring them later, and retrieving meaning across your own knowledge base.</strong>
 </p>
 
@@ -18,7 +22,7 @@
 
 <p align="center">
   <strong>Read in English</strong> |
-  <a href="README.vi.md"><strong>Doc bang tieng Viet</strong></a>
+  <a href="README.vi.md"><strong>Đọc bằng tiếng Việt</strong></a>
 </p>
 
 <p align="center">
@@ -76,25 +80,35 @@ This repository is a public product-information and support hub for the hosted S
 ## Visual Tour
 
 <p align="center">
-  <img src="assets/screenshots/00-login.png" alt="Synapse login" width="32%">
-  <img src="assets/screenshots/01-dashboard.png" alt="Synapse dashboard" width="32%">
-  <img src="assets/screenshots/02-graph-view.png" alt="Synapse graph view" width="32%">
+  <img src="assets/screenshots/01-dashboard.png" alt="Synapse dashboard" width="49%">
+  <img src="assets/screenshots/08-note-editor.png" alt="Synapse note editor" width="49%">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/04-board-view.png" alt="Synapse board view" width="32%">
-  <img src="assets/screenshots/05-insight-board.png" alt="Synapse insight board" width="32%">
-  <img src="assets/screenshots/06-rosie-chat.png" alt="Synapse Rosie chat" width="32%">
+  <img src="assets/screenshots/03-table-view.png" alt="Synapse table view" width="49%">
+  <img src="assets/screenshots/04-board-view.png" alt="Synapse board view" width="49%">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/02-graph-view.png" alt="Synapse graph view" width="49%">
+  <img src="assets/screenshots/05-insight-board.png" alt="Synapse insight board" width="49%">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/06-quick-capture.png" alt="Synapse quick capture" width="49%">
+  <img src="assets/screenshots/07-rosie-chat.png" alt="Synapse Rosie chat with real response" width="49%">
 </p>
 
 Representative live captures currently included:
 
-- login surface
 - dashboard with PARA grouping
+- note editor with structured content
+- table view for metadata management
+- board view for workflow organization
 - graph exploration
-- board workflow view
 - insight board analytics
-- Rosie AI chat drawer
+- quick capture popup
+- Rosie AI chat with a real answer from the live app
 
 ## Who It Is For
 

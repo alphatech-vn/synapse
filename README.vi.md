@@ -1,6 +1,10 @@
 # Synapse
 
 <p align="center">
+  <img src="assets/screenshots/hero-workspace.png" alt="Hero workspace của Synapse" width="100%">
+</p>
+
+<p align="center">
   <strong>Không gian làm việc tri thức có AI, giúp ghi chú nhanh trước, tổ chức sau, rồi truy xuất ý nghĩa trên toàn bộ kho kiến thức.</strong>
 </p>
 
@@ -77,25 +81,35 @@ Repository này là public product-information và support hub cho Synapse. Nó 
 ## Hình ảnh thực tế
 
 <p align="center">
-  <img src="assets/screenshots/00-login.png" alt="Màn hình đăng nhập Synapse" width="32%">
-  <img src="assets/screenshots/01-dashboard.png" alt="Dashboard Synapse" width="32%">
-  <img src="assets/screenshots/02-graph-view.png" alt="Graph view của Synapse" width="32%">
+  <img src="assets/screenshots/01-dashboard.png" alt="Dashboard Synapse" width="49%">
+  <img src="assets/screenshots/08-note-editor.png" alt="Trình soạn thảo note của Synapse" width="49%">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/04-board-view.png" alt="Board view của Synapse" width="32%">
-  <img src="assets/screenshots/05-insight-board.png" alt="Insight Board của Synapse" width="32%">
-  <img src="assets/screenshots/06-rosie-chat.png" alt="Rosie chat trong Synapse" width="32%">
+  <img src="assets/screenshots/03-table-view.png" alt="Table view của Synapse" width="49%">
+  <img src="assets/screenshots/04-board-view.png" alt="Board view của Synapse" width="49%">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/02-graph-view.png" alt="Graph view của Synapse" width="49%">
+  <img src="assets/screenshots/05-insight-board.png" alt="Insight Board của Synapse" width="49%">
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/06-quick-capture.png" alt="Quick Capture trong Synapse" width="49%">
+  <img src="assets/screenshots/07-rosie-chat.png" alt="Rosie chat với phản hồi thật trong Synapse" width="49%">
 </p>
 
 Các màn đã chụp từ app live hiện tại:
 
-- Màn hình đăng nhập.
 - Dashboard với cấu trúc PARA.
-- Graph view để khám phá liên kết tri thức.
+- Trình soạn thảo note với nội dung có cấu trúc.
+- Table view để quản lý metadata hàng loạt.
 - Board view cho tổ chức công việc.
+- Graph view để khám phá liên kết tri thức.
 - Insight Board cho thống kê knowledge base.
-- Rosie AI chat drawer.
+- Quick Capture để ghi nhanh ý tưởng.
+- Rosie AI chat với phản hồi thật từ app live.
 
 ## Phù hợp với ai
 
