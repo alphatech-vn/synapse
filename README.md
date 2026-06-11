@@ -37,11 +37,11 @@
 
 Most personal knowledge tools still leave users to solve the hardest part themselves:
 
-- notes pile up faster than structure,
-- search depends too much on exact recall,
-- ideas stay disconnected,
-- AI answers drift because the knowledge base is thin or inconsistent,
-- teams and founders keep rewriting insights that already exist somewhere in their notes.
+- Notes pile up faster than structure.
+- Search depends too much on exact recall.
+- Ideas stay disconnected.
+- AI answers drift because the knowledge base is thin or inconsistent.
+- Teams and founders keep rewriting insights that already exist somewhere in their notes.
 
 Synapse changes that pattern.
 
@@ -101,30 +101,30 @@ This repository is a public product-information and support hub for the hosted S
 
 Representative live captures currently included:
 
-- dashboard with PARA grouping
-- note editor with structured content
-- table view for metadata management
-- board view for workflow organization
-- graph exploration
-- insight board analytics
-- quick capture popup
-- Rosie AI chat with a real answer from the live app
+- Dashboard with PARA grouping.
+- Note editor with structured content.
+- Table view for metadata management.
+- Board view for workflow organization.
+- Graph exploration.
+- Insight board analytics.
+- Quick capture popup.
+- Rosie AI chat with a real answer from the live app.
 
 ## Who It Is For
 
-- founders and operators managing product, meeting, and planning knowledge
-- developers keeping technical notes and connected project context
-- researchers and learners building topic networks over time
-- power users who want more than a plain notes app
+- Founders and operators managing product, meeting, and planning knowledge.
+- Developers keeping technical notes and connected project context.
+- Researchers and learners building topic networks over time.
+- Power users who want more than a plain notes app.
 
 ## What Synapse Does
 
-- stores notes as the core object in the workspace
-- supports fast writing and later organization
-- provides several interfaces over the same knowledge base
-- uses semantic search and AI retrieval to surface the right notes
-- creates summaries, insights, concepts, and topic maps from existing material
-- supports controlled sharing and external inbound capture
+- Stores notes as the core object in the workspace.
+- Supports fast writing and later organization.
+- Provides several interfaces over the same knowledge base.
+- Uses semantic search and AI retrieval to surface the right notes.
+- Creates summaries, insights, concepts, and topic maps from existing material.
+- Supports controlled sharing and external inbound capture.
 
 ## Why It Exists
 
@@ -138,30 +138,30 @@ That is why the product sits between PKM, AI retrieval, and structured knowledge
 
 ## Why People Remember It
 
-- it lets structure emerge after capture instead of before it
-- it makes search work by meaning, not only by exact wording
-- it gives AI a better working memory through the note base
-- it turns one note set into several useful operational views
+- It lets structure emerge after capture instead of before it.
+- It makes search work by meaning, not only by exact wording.
+- It gives AI a better working memory through the note base.
+- It turns one note set into several useful operational views.
 
 ## Product Boundaries
 
 ### Shipped now
 
-- hosted web workspace
-- login and user access flow
-- note CRUD and quick capture
-- tags, properties, backlinks, and typed relations
-- list, table, board, tree, graph, and PARA views
-- Rosie AI chat and summarization flows
-- concept extraction and topic generation
-- sharing, API capture, Telegram ingestion, and notifications
+- Hosted web workspace.
+- Login and user access flow.
+- Note CRUD and quick capture.
+- Tags, properties, backlinks, and typed relations.
+- List, table, board, tree, graph, and PARA views.
+- Rosie AI chat and summarization flows.
+- Concept extraction and topic generation.
+- Sharing, API capture, Telegram ingestion, and notifications.
 
 ### Important caveats
 
-- Synapse is not an open-source knowledge app
-- this repository is not the deployment or source repository
-- some AI features depend on configured providers and workflows
-- output quality depends on the quality of the note corpus and user review
+- Synapse is not an open-source knowledge app.
+- This repository is not the deployment or source repository.
+- Some AI features depend on configured providers and workflows.
+- Output quality depends on the quality of the note corpus and user review.
 
 ## Privacy Model
 
@@ -169,18 +169,18 @@ Synapse is a hosted web product.
 
 High-level data behavior:
 
-- authenticated users work inside a note-based knowledge workspace,
-- notes, metadata, relations, and generated outputs may be stored server-side to operate the product,
-- configured AI and integration providers may process content as part of search, summarization, or workflow execution,
-- shared notes or public links only expose the content intentionally published through those features.
+- Authenticated users work inside a note-based knowledge workspace.
+- Notes, metadata, relations, and generated outputs may be stored server-side to operate the product.
+- Configured AI and integration providers may process content as part of search, summarization, or workflow execution.
+- Shared notes or public links only expose the content intentionally published through those features.
 
 See [docs/PRIVACY.md](docs/PRIVACY.md) for the short public privacy summary.
 
 ## Product Surfaces
 
-- workspace layer: notes, views, graph, search, insights
-- AI layer: Rosie chat, summaries, concepts, topics
-- sharing and integration layer: shares, API capture, Telegram, notifications
+- Workspace layer: notes, views, graph, search, insights.
+- AI layer: Rosie chat, summaries, concepts, topics.
+- Sharing and integration layer: shares, API capture, Telegram, notifications.
 
 ## Availability
 
@@ -224,28 +224,28 @@ Synapse is a closed-source product by AlphaTech.
 
 This repository exists to:
 
-- explain the product
-- show current capabilities
-- publish screenshots and public docs
-- provide support and security contact paths
+- Explain the product.
+- Show current capabilities.
+- Publish screenshots and public docs.
+- Provide support and security contact paths.
 
 It does not include:
 
-- application source code
-- private backend or deployment code
-- user credentials
-- secret infrastructure or keys
-- private workspace data
+- Application source code.
+- Private backend or deployment code.
+- User credentials.
+- Secret infrastructure or keys.
+- Private workspace data.
 
 ## Repository Scope
 
 This repo should stay limited to public-facing material:
 
-- product overview
-- FAQ
-- privacy summary
-- roadmap
-- support and security contacts
-- screenshots
+- Product overview.
+- FAQ.
+- Privacy summary.
+- Roadmap.
+- Support and security contacts.
+- Screenshots.
 
 If a future public documentation site or release flow is created, that should be documented explicitly rather than inferred from this repository.

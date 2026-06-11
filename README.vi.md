@@ -1,7 +1,7 @@
 # Synapse
 
 <p align="center">
-  <img src="assets/screenshots/hero-workspace.png" alt="Hero workspace của Synapse" width="100%">
+  <img src="assets/screenshots/hero-workspace.png" alt="Không gian làm việc của Synapse" width="100%">
 </p>
 
 <p align="center">
@@ -9,15 +9,15 @@
 </p>
 
 <p align="center">
-  Synapse kết hợp ghi chú, tìm kiếm ngữ nghĩa, graph quan hệ, AI tổng hợp
-  và nhiều chế độ xem trong một workspace web dành cho tri thức cá nhân hoặc nhóm nhỏ.
+  Synapse kết hợp ghi chú, tìm kiếm ngữ nghĩa, sơ đồ liên kết, AI tổng hợp
+  và nhiều chế độ xem trong một không gian làm việc trên web dành cho tri thức cá nhân hoặc nhóm nhỏ.
 </p>
 
 <p align="center">
-  <img alt="Platform" src="https://img.shields.io/badge/Platform-Hosted%20Web-0F766E?style=flat-square">
-  <img alt="Model" src="https://img.shields.io/badge/Model-AI%20Knowledge%20Workspace-1D4ED8?style=flat-square">
-  <img alt="Audience" src="https://img.shields.io/badge/Audience-Founders%20%26%20Knowledge%20Workers-F59E0B?style=flat-square">
-  <img alt="License" src="https://img.shields.io/badge/License-Closed--source-7C3AED?style=flat-square">
+  <img alt="Nền tảng" src="https://img.shields.io/badge/Platform-Hosted%20Web-0F766E?style=flat-square">
+  <img alt="Mô hình" src="https://img.shields.io/badge/Model-AI%20Knowledge%20Workspace-1D4ED8?style=flat-square">
+  <img alt="Đối tượng" src="https://img.shields.io/badge/Audience-Founders%20%26%20Knowledge%20Workers-F59E0B?style=flat-square">
+  <img alt="Giấy phép" src="https://img.shields.io/badge/License-Closed--source-7C3AED?style=flat-square">
 </p>
 
 <p align="center">
@@ -42,158 +42,158 @@ Phần lớn công cụ quản lý tri thức cá nhân vẫn để người dù
 - Tìm kiếm phụ thuộc quá nhiều vào việc nhớ đúng từ.
 - Ý tưởng bị phân mảnh.
 - AI trả lời thiếu chắc vì nền kiến thức rời rạc.
-- Team và founder cứ phải viết lại những điều đã nằm đâu đó trong note.
+- Nhóm làm việc và người xây dựng sản phẩm cứ phải viết lại những điều đã nằm đâu đó trong ghi chú.
 
 Synapse thay đổi vòng lặp đó.
 
-Sản phẩm cho phép ghi trước, rồi bổ sung cấu trúc dần qua tag, wikilink, properties, PARA, semantic search, graph quan hệ, trích xuất concept, topic map và AI tổng hợp.
+Sản phẩm cho phép ghi trước, rồi bổ sung cấu trúc dần qua thẻ, liên kết ghi chú, thuộc tính, PARA, tìm kiếm ngữ nghĩa, sơ đồ liên kết, trích xuất khái niệm, bản đồ chủ đề và AI tổng hợp.
 
 Điểm đáng nhớ không chỉ là AI có thể trả lời.
-Điểm đáng nhớ là note, quan hệ, search và synthesis cùng vận hành trên một workspace tri thức đang lớn dần.
+Điểm đáng nhớ là ghi chú, quan hệ, tìm kiếm và tổng hợp cùng vận hành trên một không gian tri thức đang lớn dần.
 
 > Từ ghi chú rời rạc thành một hệ tri thức có thể tái sử dụng.
 
 ## Vì sao Synapse khác
 
 1. **Ghi lại** ý tưởng mà không buộc người dùng phải cấu trúc quá sớm.
-2. **Kết nối** các note bằng link, metadata, embedding và graph.
-3. **Tổng hợp** kho tri thức bằng AI chat, summary, insight và topic view.
+2. **Kết nối** các ghi chú bằng liên kết, siêu dữ liệu, vector ngữ nghĩa và sơ đồ liên kết.
+3. **Tổng hợp** kho tri thức bằng trò chuyện AI, tóm tắt, gợi ý phân tích và chế độ xem theo chủ đề.
 
-Repository này là public product-information và support hub cho Synapse. Nó không chứa source code ứng dụng.
+Kho lưu trữ này là nơi giới thiệu sản phẩm và điều hướng hỗ trợ công khai cho Synapse. Nó không chứa mã nguồn ứng dụng.
 
 ## Bạn nhận được gì
 
-- `Knowledge Workspace` cho note, template và quick capture.
-- `Multiple Views` gồm list, table, board, tree, graph và PARA.
-- `AI Layer` cho Rosie chat, summary từng note, summary theo khoảng thời gian và synthesis.
-- `Connected Knowledge` qua wikilink, backlink, typed relations, concepts và topics.
-- `Integrations` cho public sharing, API-key inbound capture, Telegram ingestion và push notifications.
+- `Không gian tri thức` cho ghi chú, mẫu ghi chú và ghi nhanh.
+- `Nhiều chế độ xem` gồm danh sách, bảng, bảng công việc, cây, sơ đồ liên kết và PARA.
+- `Lớp AI` cho Rosie, tóm tắt từng ghi chú, tóm tắt theo thời gian và tổng hợp nội dung.
+- `Tri thức có kết nối` qua liên kết ghi chú, liên kết ngược, quan hệ phân loại, khái niệm và chủ đề.
+- `Tích hợp` cho chia sẻ công khai, nhận ghi chú qua khóa API, nhận nội dung từ Telegram và thông báo đẩy.
 
 ## Tổng quan nhanh
 
-- Sản phẩm web hosted.
-- Workspace có đăng nhập.
-- Ghi chú và metadata.
-- Knowledge graph và relationship views.
-- Semantic search và hybrid search.
-- AI retrieval và synthesis.
+- Sản phẩm web được lưu trữ sẵn.
+- Không gian làm việc có đăng nhập.
+- Ghi chú và siêu dữ liệu.
+- Sơ đồ tri thức và các chế độ xem quan hệ.
+- Tìm kiếm ngữ nghĩa và tìm kiếm kết hợp.
+- Truy xuất và tổng hợp bằng AI.
 
 ## Hình ảnh thực tế
 
 <p align="center">
-  <img src="assets/screenshots/01-dashboard.png" alt="Dashboard Synapse" width="49%">
-  <img src="assets/screenshots/08-note-editor.png" alt="Trình soạn thảo note của Synapse" width="49%">
+  <img src="assets/screenshots/01-dashboard.png" alt="Bảng điều khiển của Synapse" width="49%">
+  <img src="assets/screenshots/08-note-editor.png" alt="Trình soạn thảo ghi chú của Synapse" width="49%">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/03-table-view.png" alt="Table view của Synapse" width="49%">
-  <img src="assets/screenshots/04-board-view.png" alt="Board view của Synapse" width="49%">
+  <img src="assets/screenshots/03-table-view.png" alt="Chế độ xem dạng bảng của Synapse" width="49%">
+  <img src="assets/screenshots/04-board-view.png" alt="Chế độ xem bảng công việc của Synapse" width="49%">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/02-graph-view.png" alt="Graph view của Synapse" width="49%">
-  <img src="assets/screenshots/05-insight-board.png" alt="Insight Board của Synapse" width="49%">
+  <img src="assets/screenshots/02-graph-view.png" alt="Sơ đồ liên kết của Synapse" width="49%">
+  <img src="assets/screenshots/05-insight-board.png" alt="Bảng phân tích của Synapse" width="49%">
 </p>
 
 <p align="center">
-  <img src="assets/screenshots/06-quick-capture.png" alt="Quick Capture trong Synapse" width="49%">
-  <img src="assets/screenshots/07-rosie-chat.png" alt="Rosie chat với phản hồi thật trong Synapse" width="49%">
+  <img src="assets/screenshots/06-quick-capture.png" alt="Hộp ghi nhanh trong Synapse" width="49%">
+  <img src="assets/screenshots/07-rosie-chat.png" alt="Rosie với phản hồi thật trong Synapse" width="49%">
 </p>
 
-Các màn đã chụp từ app live hiện tại:
+Các màn đã chụp từ ứng dụng đang chạy hiện tại:
 
-- Dashboard với cấu trúc PARA.
-- Trình soạn thảo note với nội dung có cấu trúc.
-- Table view để quản lý metadata hàng loạt.
-- Board view cho tổ chức công việc.
-- Graph view để khám phá liên kết tri thức.
-- Insight Board cho thống kê knowledge base.
-- Quick Capture để ghi nhanh ý tưởng.
-- Rosie AI chat với phản hồi thật từ app live.
+- Bảng điều khiển với cấu trúc PARA.
+- Trình soạn thảo ghi chú với nội dung có cấu trúc.
+- Chế độ xem dạng bảng để quản lý siêu dữ liệu hàng loạt.
+- Chế độ xem bảng công việc để tổ chức tiến độ.
+- Sơ đồ liên kết để khám phá mối liên hệ tri thức.
+- Bảng phân tích để thống kê kho tri thức.
+- Hộp ghi nhanh để ghi lại ý tưởng tức thời.
+- Rosie với phản hồi thật từ ứng dụng đang chạy.
 
 ## Phù hợp với ai
 
-- Founder và operator quản lý kiến thức sản phẩm, họp, kế hoạch.
-- Developer lưu note kỹ thuật và bối cảnh dự án.
-- Researcher hoặc learner xây mạng lưới chủ đề theo thời gian.
-- Power user cần nhiều hơn một app ghi chú cơ bản.
+- Người xây dựng sản phẩm và người vận hành cần quản lý tri thức về sản phẩm, cuộc họp và kế hoạch.
+- Lập trình viên cần lưu ghi chú kỹ thuật và bối cảnh dự án.
+- Người nghiên cứu hoặc người học muốn xây mạng lưới chủ đề theo thời gian.
+- Người dùng chuyên sâu cần nhiều hơn một ứng dụng ghi chú cơ bản.
 
 ## Synapse làm gì
 
-- Lấy `notes` làm đối tượng trung tâm.
+- Lấy `ghi chú` làm đối tượng trung tâm.
 - Hỗ trợ ghi nhanh rồi tổ chức sau.
-- Cung cấp nhiều góc nhìn trên cùng một kho note.
-- Dùng semantic search và AI retrieval để tìm đúng note.
-- Tạo summary, insight, concept và topic map từ dữ liệu sẵn có.
-- Hỗ trợ sharing có kiểm soát và inbound capture từ bên ngoài.
+- Cung cấp nhiều góc nhìn trên cùng một kho ghi chú.
+- Dùng tìm kiếm ngữ nghĩa và truy xuất bằng AI để tìm đúng ghi chú.
+- Tạo bản tóm tắt, gợi ý phân tích, khái niệm và bản đồ chủ đề từ dữ liệu sẵn có.
+- Hỗ trợ chia sẻ có kiểm soát và nhận nội dung từ bên ngoài.
 
 ## Vì sao sản phẩm tồn tại
 
-Synapse không chỉ muốn là một markdown editor hay một ô chat AI.
+Synapse không chỉ muốn là một trình soạn thảo Markdown hay một ô trò chuyện AI.
 
 Nó giải một bài toán thực tế hơn:
 
-> "Mọi người ghi lại rất nhiều điều hữu ích mỗi ngày, nhưng đa số hệ thống vẫn khiến việc biến đống note đó thành một kho tri thức có kết nối, có thể tìm, có thể tái sử dụng trở nên quá khó."
+> "Mọi người ghi lại rất nhiều điều hữu ích mỗi ngày, nhưng đa số hệ thống vẫn khiến việc biến đống ghi chú đó thành một kho tri thức có kết nối, có thể tìm và có thể tái sử dụng trở nên quá khó."
 
-Vì vậy sản phẩm nằm giữa PKM, AI retrieval và structured knowledge work.
+Vì vậy sản phẩm nằm ở giao điểm giữa quản lý tri thức cá nhân, truy xuất bằng AI và làm việc tri thức có cấu trúc.
 
 ## Vì sao người dùng nhớ nó
 
-- Cấu trúc có thể hình thành sau khi capture.
-- Search theo nghĩa chứ không chỉ theo từ khóa.
-- AI có bộ nhớ làm việc tốt hơn nhờ nền note.
-- Một bộ note có thể dùng cho nhiều kiểu vận hành khác nhau.
+- Cấu trúc có thể hình thành sau khi ghi lại ý tưởng.
+- Tìm kiếm dựa trên ý nghĩa chứ không chỉ dựa trên từ khóa.
+- AI có bộ nhớ làm việc tốt hơn nhờ nền ghi chú.
+- Một bộ ghi chú có thể dùng cho nhiều kiểu vận hành khác nhau.
 
 ## Ranh giới sản phẩm
 
 ### Đã có hiện tại
 
-- Hosted web workspace.
-- Login và user access flow.
-- Note CRUD và quick capture.
-- Tags, properties, backlinks và typed relations.
-- List, table, board, tree, graph và PARA views.
-- Rosie AI chat và các flow summary.
-- Concept extraction và topic generation.
-- Sharing, API capture, Telegram ingestion và notifications.
+- Không gian làm việc trên web được lưu trữ sẵn.
+- Đăng nhập và luồng truy cập của người dùng.
+- Tạo, sửa, xóa ghi chú và ghi nhanh.
+- Thẻ, thuộc tính, liên kết ngược và quan hệ phân loại.
+- Các chế độ xem dạng danh sách, bảng, bảng công việc, cây, sơ đồ liên kết và PARA.
+- Rosie và các luồng tóm tắt nội dung.
+- Trích xuất khái niệm và tạo chủ đề.
+- Chia sẻ, nhận nội dung qua khóa API, nhận nội dung từ Telegram và thông báo đẩy.
 
 ### Lưu ý quan trọng
 
 - Synapse không phải ứng dụng quản lý tri thức mã nguồn mở.
-- Repository này không phải repo source hay deployment.
-- Một số tính năng AI phụ thuộc provider và workflow được cấu hình.
-- Chất lượng output phụ thuộc chất lượng kho note và bước review của người dùng.
+- Kho lưu trữ này không phải nơi chứa mã nguồn hay cấu hình triển khai.
+- Một số tính năng AI phụ thuộc vào nhà cung cấp dịch vụ và các quy trình đã cấu hình.
+- Chất lượng đầu ra phụ thuộc vào chất lượng kho ghi chú và bước rà soát của người dùng.
 
 ## Mô hình riêng tư
 
-Synapse là một sản phẩm web hosted.
+Synapse là một sản phẩm web được lưu trữ sẵn.
 
 Ở mức tổng quan:
 
-- Người dùng đã xác thực làm việc trong workspace ghi chú.
-- Notes, metadata, relations và generated outputs có thể được lưu phía server để vận hành sản phẩm.
-- AI provider và integration provider được cấu hình có thể xử lý nội dung trong quá trình search, summary hoặc workflow execution.
-- Shared notes hoặc public links chỉ lộ ra nội dung được người dùng chủ động chia sẻ qua các tính năng đó.
+- Người dùng đã xác thực làm việc trong không gian ghi chú.
+- Ghi chú, siêu dữ liệu, quan hệ và nội dung đầu ra có thể được lưu phía máy chủ để vận hành sản phẩm.
+- Các dịch vụ AI và tích hợp đã cấu hình có thể xử lý nội dung trong quá trình tìm kiếm, tóm tắt hoặc chạy quy trình.
+- Ghi chú chia sẻ hoặc liên kết công khai chỉ lộ ra phần nội dung mà người dùng chủ động công bố qua các tính năng đó.
 
 Xem [docs/PRIVACY.md](docs/PRIVACY.md) để biết bản tóm tắt riêng tư công khai.
 
 ## Các lớp bề mặt sản phẩm
 
-- Workspace layer: notes, views, graph, search, insights.
-- AI layer: Rosie chat, summaries, concepts, topics.
-- Sharing và integration layer: shares, API capture, Telegram, notifications.
+- Lớp không gian làm việc: ghi chú, chế độ xem, sơ đồ liên kết, tìm kiếm và gợi ý phân tích.
+- Lớp AI: Rosie, bản tóm tắt, khái niệm và chủ đề.
+- Lớp chia sẻ và tích hợp: chia sẻ, nhận nội dung qua khóa API, Telegram và thông báo đẩy.
 
 ## Truy cập
 
 - Live site: https://synapse.alphatech.ai.vn/
-- Loại sản phẩm: hosted AI knowledge workspace
-- Trạng thái hiện tại: sản phẩm live với workspace có đăng nhập
+- Loại sản phẩm: Không gian tri thức có AI trên web.
+- Trạng thái hiện tại: Sản phẩm đang hoạt động với không gian làm việc có đăng nhập.
 
 ## 3 bước bắt đầu
 
-1. **Mở** live site và đăng nhập vào workspace.
-2. **Tạo** hoặc nhập note, rồi tổ chức bằng tags, links, properties và views.
-3. **Dùng** Rosie, search, summaries và graph để truy xuất và tổng hợp tri thức.
+1. **Mở** trang đang hoạt động và đăng nhập vào không gian làm việc.
+2. **Tạo** hoặc nhập ghi chú, rồi tổ chức bằng thẻ, liên kết, thuộc tính và các chế độ xem.
+3. **Dùng** Rosie, tìm kiếm, tóm tắt và sơ đồ liên kết để truy xuất và tổng hợp tri thức.
 
 ## Bắt đầu từ đây
 
@@ -209,8 +209,8 @@ Xem [docs/PRIVACY.md](docs/PRIVACY.md) để biết bản tóm tắt riêng tư 
 ## Khám phá Synapse
 
 <p align="center">
-  <strong>Muốn xem cách note capture, semantic retrieval và AI synthesis có thể sống chung trong một workspace?</strong><br>
-  Hãy xem live product trước, rồi dùng đường hỗ trợ cho câu hỏi về truy cập và sản phẩm.
+  <strong>Muốn xem cách ghi chú nhanh, truy xuất ngữ nghĩa và tổng hợp bằng AI có thể sống chung trong một không gian làm việc?</strong><br>
+  Hãy xem sản phẩm đang hoạt động trước, rồi dùng đường hỗ trợ cho các câu hỏi về truy cập và sản phẩm.
 </p>
 
 <p align="center">
@@ -223,30 +223,30 @@ Xem [docs/PRIVACY.md](docs/PRIVACY.md) để biết bản tóm tắt riêng tư 
 
 Synapse là sản phẩm closed-source của AlphaTech.
 
-Repository này tồn tại để:
+Kho lưu trữ này tồn tại để:
 
 - Giải thích sản phẩm.
 - Mô tả năng lực hiện tại.
-- Công bố screenshot và tài liệu public.
+- Công bố hình ảnh và tài liệu công khai.
 - Cung cấp đường hỗ trợ và báo lỗi bảo mật.
 
-Repository này không bao gồm:
+Kho lưu trữ này không bao gồm:
 
-- Source code ứng dụng.
-- Backend hoặc deployment code nội bộ.
-- Credential người dùng.
-- Hạ tầng bí mật hoặc key.
-- Dữ liệu workspace riêng tư.
+- Mã nguồn ứng dụng.
+- Mã phía máy chủ hoặc mã triển khai nội bộ.
+- Thông tin đăng nhập của người dùng.
+- Hạ tầng bí mật hoặc khóa bảo mật.
+- Dữ liệu riêng tư trong không gian làm việc.
 
-## Phạm vi repository
+## Phạm vi kho lưu trữ
 
-Repo này nên chỉ chứa tài liệu public-facing:
+Kho này nên chỉ chứa tài liệu công khai:
 
-- Product overview.
+- Giới thiệu sản phẩm.
 - FAQ.
-- Privacy summary.
-- Roadmap.
-- Support và security contacts.
-- Screenshots.
+- Tóm tắt quyền riêng tư.
+- Lộ trình công khai.
+- Đầu mối hỗ trợ và bảo mật.
+- Hình ảnh minh họa.
 
-Nếu sau này có documentation site công khai hoặc release flow công khai, điều đó cần được mô tả rõ ràng thay vì để người đọc tự suy diễn từ repository này.
+Nếu sau này có trang tài liệu công khai hoặc quy trình phát hành công khai, điều đó cần được mô tả rõ ràng thay vì để người đọc tự suy diễn từ kho lưu trữ này.
