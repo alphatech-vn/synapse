@@ -75,19 +75,26 @@ This repository is a public product-information and support hub for the hosted S
 
 ## Visual Tour
 
-Screenshot set is still being prepared for the public repo.
+<p align="center">
+  <img src="assets/screenshots/00-login.png" alt="Synapse login" width="32%">
+  <img src="assets/screenshots/01-dashboard.png" alt="Synapse dashboard" width="32%">
+  <img src="assets/screenshots/02-graph-view.png" alt="Synapse graph view" width="32%">
+</p>
 
-Planned coverage:
+<p align="center">
+  <img src="assets/screenshots/04-board-view.png" alt="Synapse board view" width="32%">
+  <img src="assets/screenshots/05-insight-board.png" alt="Synapse insight board" width="32%">
+  <img src="assets/screenshots/06-rosie-chat.png" alt="Synapse Rosie chat" width="32%">
+</p>
 
-- login
-- main dashboard
-- note editor
-- graph view
-- Rosie AI chat
-- board or PARA organization
-- sharing or integrations surface
+Representative live captures currently included:
 
-See [assets/screenshots/README.md](assets/screenshots/README.md).
+- login surface
+- dashboard with PARA grouping
+- graph exploration
+- board workflow view
+- insight board analytics
+- Rosie AI chat drawer
 
 ## Who It Is For
 

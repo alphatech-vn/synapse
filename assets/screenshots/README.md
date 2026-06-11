@@ -1,20 +1,27 @@
-# Screenshot Plan
+# Screenshots
 
-Public screenshots for Synapse still need to be captured and curated.
+Captured from the live Synapse deployment on 2026-06-11.
 
-Recommended first pass:
+Current files:
 
-- `01-login.png`
-- `02-dashboard.png`
-- `03-note-editor.png`
-- `04-graph-view.png`
-- `05-rosie-chat.png`
-- `06-board-or-para.png`
-- `07-sharing-or-integrations.png`
+- `00-login.png`
+- `01-dashboard.png`
+- `02-graph-view.png`
+- `03-table-view.png`
+- `04-board-view.png`
+- `05-insight-board.png`
+- `06-rosie-chat.png`
+- `07-note-editor.png`
 
-Capture guidance:
+Recommended public README set:
 
-- use a non-sensitive account,
-- avoid exposing private note content,
-- prefer loaded, readable states over full-page raw captures,
-- keep image ratios consistent for GitHub README rendering.
+- `00-login.png`
+- `01-dashboard.png`
+- `02-graph-view.png`
+- `04-board-view.png`
+- `05-insight-board.png`
+- `06-rosie-chat.png`
+
+Scope note:
+
+- `07-note-editor.png` is a real in-app capture, but it shows note content rather than only product chrome, so it should be used more carefully in public-facing copy.

@@ -34,11 +34,11 @@
 
 Phần lớn công cụ quản lý tri thức cá nhân vẫn để người dùng tự giải quyết phần khó nhất:
 
-- ghi chú tăng nhanh hơn khả năng tổ chức,
-- tìm kiếm phụ thuộc quá nhiều vào việc nhớ đúng từ,
-- ý tưởng bị phân mảnh,
-- AI trả lời thiếu chắc vì nền kiến thức rời rạc,
-- team và founder cứ phải viết lại những điều đã nằm đâu đó trong note.
+- Ghi chú tăng nhanh hơn khả năng tổ chức.
+- Tìm kiếm phụ thuộc quá nhiều vào việc nhớ đúng từ.
+- Ý tưởng bị phân mảnh.
+- AI trả lời thiếu chắc vì nền kiến thức rời rạc.
+- Team và founder cứ phải viết lại những điều đã nằm đâu đó trong note.
 
 Synapse thay đổi vòng lặp đó.
 
@@ -59,52 +59,59 @@ Repository này là public product-information và support hub cho Synapse. Nó 
 
 ## Bạn nhận được gì
 
-- `Knowledge Workspace` cho note, template và quick capture
-- `Multiple Views` gồm list, table, board, tree, graph và PARA
-- `AI Layer` cho Rosie chat, summary từng note, summary theo khoảng thời gian và synthesis
-- `Connected Knowledge` qua wikilink, backlink, typed relations, concepts và topics
-- `Integrations` cho public sharing, API-key inbound capture, Telegram ingestion và push notifications
+- `Knowledge Workspace` cho note, template và quick capture.
+- `Multiple Views` gồm list, table, board, tree, graph và PARA.
+- `AI Layer` cho Rosie chat, summary từng note, summary theo khoảng thời gian và synthesis.
+- `Connected Knowledge` qua wikilink, backlink, typed relations, concepts và topics.
+- `Integrations` cho public sharing, API-key inbound capture, Telegram ingestion và push notifications.
 
 ## Tổng quan nhanh
 
-- Sản phẩm web hosted
-- Workspace có đăng nhập
-- Ghi chú và metadata
-- Knowledge graph và relationship views
-- Semantic search và hybrid search
-- AI retrieval và synthesis
+- Sản phẩm web hosted.
+- Workspace có đăng nhập.
+- Ghi chú và metadata.
+- Knowledge graph và relationship views.
+- Semantic search và hybrid search.
+- AI retrieval và synthesis.
 
-## Visual tour
+## Hình ảnh thực tế
 
-Bộ screenshot public vẫn đang được chuẩn bị.
+<p align="center">
+  <img src="assets/screenshots/00-login.png" alt="Màn hình đăng nhập Synapse" width="32%">
+  <img src="assets/screenshots/01-dashboard.png" alt="Dashboard Synapse" width="32%">
+  <img src="assets/screenshots/02-graph-view.png" alt="Graph view của Synapse" width="32%">
+</p>
 
-Các màn hình dự kiến đưa vào:
+<p align="center">
+  <img src="assets/screenshots/04-board-view.png" alt="Board view của Synapse" width="32%">
+  <img src="assets/screenshots/05-insight-board.png" alt="Insight Board của Synapse" width="32%">
+  <img src="assets/screenshots/06-rosie-chat.png" alt="Rosie chat trong Synapse" width="32%">
+</p>
 
-- login
-- dashboard
-- note editor
-- graph view
-- Rosie AI chat
-- board hoặc PARA view
-- chia sẻ hoặc integration surface
+Các màn đã chụp từ app live hiện tại:
 
-Xem [assets/screenshots/README.md](assets/screenshots/README.md).
+- Màn hình đăng nhập.
+- Dashboard với cấu trúc PARA.
+- Graph view để khám phá liên kết tri thức.
+- Board view cho tổ chức công việc.
+- Insight Board cho thống kê knowledge base.
+- Rosie AI chat drawer.
 
 ## Phù hợp với ai
 
-- founder và operator quản lý kiến thức sản phẩm, họp, kế hoạch
-- developer lưu note kỹ thuật và bối cảnh dự án
-- researcher hoặc learner xây mạng lưới chủ đề theo thời gian
-- power user cần nhiều hơn một app ghi chú cơ bản
+- Founder và operator quản lý kiến thức sản phẩm, họp, kế hoạch.
+- Developer lưu note kỹ thuật và bối cảnh dự án.
+- Researcher hoặc learner xây mạng lưới chủ đề theo thời gian.
+- Power user cần nhiều hơn một app ghi chú cơ bản.
 
 ## Synapse làm gì
 
-- lấy `notes` làm đối tượng trung tâm
-- hỗ trợ ghi nhanh rồi tổ chức sau
-- cung cấp nhiều góc nhìn trên cùng một kho note
-- dùng semantic search và AI retrieval để tìm đúng note
-- tạo summary, insight, concept và topic map từ dữ liệu sẵn có
-- hỗ trợ sharing có kiểm soát và inbound capture từ bên ngoài
+- Lấy `notes` làm đối tượng trung tâm.
+- Hỗ trợ ghi nhanh rồi tổ chức sau.
+- Cung cấp nhiều góc nhìn trên cùng một kho note.
+- Dùng semantic search và AI retrieval để tìm đúng note.
+- Tạo summary, insight, concept và topic map từ dữ liệu sẵn có.
+- Hỗ trợ sharing có kiểm soát và inbound capture từ bên ngoài.
 
 ## Vì sao sản phẩm tồn tại
 
@@ -118,30 +125,30 @@ Vì vậy sản phẩm nằm giữa PKM, AI retrieval và structured knowledge w
 
 ## Vì sao người dùng nhớ nó
 
-- cấu trúc có thể hình thành sau khi capture
-- search theo nghĩa chứ không chỉ theo từ khóa
-- AI có bộ nhớ làm việc tốt hơn nhờ nền note
-- một bộ note có thể dùng cho nhiều kiểu vận hành khác nhau
+- Cấu trúc có thể hình thành sau khi capture.
+- Search theo nghĩa chứ không chỉ theo từ khóa.
+- AI có bộ nhớ làm việc tốt hơn nhờ nền note.
+- Một bộ note có thể dùng cho nhiều kiểu vận hành khác nhau.
 
 ## Ranh giới sản phẩm
 
 ### Đã có hiện tại
 
-- web workspace hosted
-- login và user access flow
-- note CRUD và quick capture
-- tags, properties, backlinks và typed relations
-- list, table, board, tree, graph và PARA views
-- Rosie AI chat và các flow summary
-- concept extraction và topic generation
-- sharing, API capture, Telegram ingestion và notifications
+- Hosted web workspace.
+- Login và user access flow.
+- Note CRUD và quick capture.
+- Tags, properties, backlinks và typed relations.
+- List, table, board, tree, graph và PARA views.
+- Rosie AI chat và các flow summary.
+- Concept extraction và topic generation.
+- Sharing, API capture, Telegram ingestion và notifications.
 
 ### Lưu ý quan trọng
 
-- Synapse không phải ứng dụng quản lý tri thức mã nguồn mở
-- repository này không phải repo source hay deployment
-- một số tính năng AI phụ thuộc provider và workflow được cấu hình
-- chất lượng output phụ thuộc chất lượng kho note và bước review của người dùng
+- Synapse không phải ứng dụng quản lý tri thức mã nguồn mở.
+- Repository này không phải repo source hay deployment.
+- Một số tính năng AI phụ thuộc provider và workflow được cấu hình.
+- Chất lượng output phụ thuộc chất lượng kho note và bước review của người dùng.
 
 ## Mô hình riêng tư
 
@@ -149,18 +156,18 @@ Synapse là một sản phẩm web hosted.
 
 Ở mức tổng quan:
 
-- người dùng đã xác thực làm việc trong workspace ghi chú,
-- notes, metadata, relations và generated outputs có thể được lưu phía server để vận hành sản phẩm,
-- AI provider và integration provider được cấu hình có thể xử lý nội dung trong quá trình search, summary hoặc workflow execution,
-- shared notes hoặc public links chỉ lộ ra nội dung được người dùng chủ động chia sẻ qua các tính năng đó.
+- Người dùng đã xác thực làm việc trong workspace ghi chú.
+- Notes, metadata, relations và generated outputs có thể được lưu phía server để vận hành sản phẩm.
+- AI provider và integration provider được cấu hình có thể xử lý nội dung trong quá trình search, summary hoặc workflow execution.
+- Shared notes hoặc public links chỉ lộ ra nội dung được người dùng chủ động chia sẻ qua các tính năng đó.
 
 Xem [docs/PRIVACY.md](docs/PRIVACY.md) để biết bản tóm tắt riêng tư công khai.
 
 ## Các lớp bề mặt sản phẩm
 
-- workspace layer: notes, views, graph, search, insights
-- AI layer: Rosie chat, summaries, concepts, topics
-- sharing và integration layer: shares, API capture, Telegram, notifications
+- Workspace layer: notes, views, graph, search, insights.
+- AI layer: Rosie chat, summaries, concepts, topics.
+- Sharing và integration layer: shares, API capture, Telegram, notifications.
 
 ## Truy cập
 
@@ -204,28 +211,28 @@ Synapse là sản phẩm closed-source của AlphaTech.
 
 Repository này tồn tại để:
 
-- giải thích sản phẩm
-- mô tả năng lực hiện tại
-- công bố screenshot và tài liệu public
-- cung cấp đường hỗ trợ và báo lỗi bảo mật
+- Giải thích sản phẩm.
+- Mô tả năng lực hiện tại.
+- Công bố screenshot và tài liệu public.
+- Cung cấp đường hỗ trợ và báo lỗi bảo mật.
 
 Repository này không bao gồm:
 
-- source code ứng dụng
-- backend hoặc deployment code nội bộ
-- credential người dùng
-- hạ tầng bí mật hoặc key
-- dữ liệu workspace riêng tư
+- Source code ứng dụng.
+- Backend hoặc deployment code nội bộ.
+- Credential người dùng.
+- Hạ tầng bí mật hoặc key.
+- Dữ liệu workspace riêng tư.
 
 ## Phạm vi repository
 
 Repo này nên chỉ chứa tài liệu public-facing:
 
-- product overview
-- FAQ
-- privacy summary
-- roadmap
-- support và security contacts
-- screenshots
+- Product overview.
+- FAQ.
+- Privacy summary.
+- Roadmap.
+- Support và security contacts.
+- Screenshots.
 
 Nếu sau này có documentation site công khai hoặc release flow công khai, điều đó cần được mô tả rõ ràng thay vì để người đọc tự suy diễn từ repository này.
