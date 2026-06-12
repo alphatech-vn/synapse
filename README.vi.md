@@ -250,3 +250,8 @@ Kho này nên chỉ chứa tài liệu công khai:
 - Hình ảnh minh họa.
 
 Nếu sau này có trang tài liệu công khai hoặc quy trình phát hành công khai, điều đó cần được mô tả rõ ràng thay vì để người đọc tự suy diễn từ kho lưu trữ này.
+
+
+<p align="center">
+  <a href="https://github.com/alphatech-vn"><img src="https://img.shields.io/badge/Back%20to-AlphaTech%20Hub-1b1713?style=for-the-badge&logo=github&logoColor=white" alt="Back to AlphaTech Hub"></a>
+</p>
