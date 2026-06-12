@@ -1,6 +1,10 @@
 # Synapse
 
 <p align="center">
+  <a href="https://github.com/alphatech-vn"><img src="https://img.shields.io/badge/Back%20to-AlphaTech%20Hub-1b1713?style=for-the-badge&logo=github&logoColor=white" alt="Back to AlphaTech Hub"></a>
+</p>
+
+<p align="center">
   <img src="assets/screenshots/hero-workspace.png" alt="Synapse workspace hero" width="100%">
 </p>
 
